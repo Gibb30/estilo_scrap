@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="icon" href="../images/LOGO.ico">
+</head>
+<body>
+    <header>
+        <h1>Estilo Scrap</h1>
+    </header>
+
+    <div class="volver">
+        <a href="../pages/index.html">	
+            &#171 Volver a la página principal
+        </a>
+    </div>
+
+    <form>
+        <div class="main-content">
+            <label class="rpedido">
+                <p> Contáctanos </p>
+            </label>
+            
+            <div class="div-row">
+                <label for="nombres" class="casillas">
+                    <p> Nombres: </p>
+                </label>
+                <input id="nombres" type="text" placeholder="Nombres completos" required="">
+            </div>
+
+            <div class="div-row">
+                <label for="apellidos" class="casillas">
+                    <p> Apellidos: </p>
+                </label>
+                <input id="apellidos" type="text" placeholder="Apellidos completos" required="">
+            </div>
+
+            <div class="div-row">
+                <label for="email" class="casillas">
+                    <p> Email: </p>
+                </label>
+                <input type="email" id="email" placeholder="ejemplo@hotmail.com" required="">
+            </div>
+
+            <div class="div-row">
+                <label for="phone" class="casillas">
+                    <p> Teléfono: </p>
+                </label>
+                <input type="cel" id="phone" placeholder="Número Telefónico" min="1"max="9" required="">
+            </div>
+
+            <div class="div-row">
+                <label for="cbxciudades" class="casillas">
+                    <p> Mensaje: </p>
+                </label>
+                <textarea id="casillam" name="mensaje" cols="50" rows="10" 
+                    placeholder="ingresa tu mensaje para nosotros aquí. Nos comunicaremos con usted dentro de 2 días hábiles"
+                    required=""></textarea>
+            </div>
+            
+            <div class="div-rowcenter">
+                <input class="button" type="submit" name="Enviar">
+            </div>
+        </form>
+
+    <script
+      src="https://kit.fontawesome.com/f72f8a8a3c.js"
+      crossorigin="anonymous">
+    </script>
+</body>
+</html>
